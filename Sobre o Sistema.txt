@@ -1,0 +1,29 @@
+GESF - Gerenciador de Serviços e Finanças
+
+1.Sobre o Sistema
+
+O sistema GESF foi criado para auxiliar um provedor de internet que trabalha com basicamente três serviços: Instalações, Migrações de cabo para fibra óptica (e vice-versa) e traferências de residência. Além disso, como toda empresa, existe um fluxo de caixa, entrada e saída que pode ser gerenciado por este sistema, o qual pode gerar um relatório com todos os detalhes de serviços, entradas e saídas, bem como o estoque atual de equipamentos.
+
+
+2.Descição do Sistema
+
+2.1. Visão geral
+
+Esta aplicação, desenvolvida no excel atráves da linguagem VBA (Visual Basic for Applications), possui 14 guias, ou planilhas. Entre elas, 12 guias correspondem aos 12 meses do ano, também há uma planilha específica para controle de fluxo de caixa e, finalmente, o estoque de equipamentos, na qual se mantém atualizadas as entradas e saídas de roteadores, conectores e ONU's. 
+
+2.2.Descrição das guias mensais
+
+Em cada planilha, associado a um mês, é possível registrar a efetivação de um serviço, seja ele uma nova instalação, Migração ou tranferência. Além disso, também pode-se registrar cancelamentos que possam ocorrer durante o mês. Na mesma guia, no canto superior direito, há uma área de navegação, na qual é possível acessar os outros meses do ano. Todas essas planilhas, vinculadas aos meses, possuem a mesma estrutura, no entanto ao selecionar algum mês, o bloco pressionado ficar com uma cor diferenciada, indicando qual mês o usuário está acessando.
+
+2.3.Descrição da guia de entradas e saídas
+
+Esta planilha é um pouco parecida com as planilhas descritas no subtópico anterior, todavia, sua função é registrar todas as entradas e saidas que ocorrem durante o dia, sendo reinicializada para iniciar nosvos registros no outro dia. Também é nesta planilha que o relatório diário é gerado.
+
+2.4.Descrição da planilha de estoque
+
+Como já mencioando, esta planilha registra o estoque de equipamentos (Roteadores, Conectores e ONU's), exibindo a quantida atual e o histórico de instalações recolhimento desses equipamentos em caso de cancelamento.
+
+
+3.Instruções para usar em computadores
+
+Como se trata de um arquivo excel, basta ter instalado a ferramenta Excel da Microsoft (Recomendamos a versão 2019 ou mais atual, pois pode haver alguma incompatibilidade de recursos caso se utilize uma versão mais antiga). Ao realizar o download do arquivo e abrí-lo pela primeira vez, o excel irá pedir para habilitar a edição do arquivo e também as MACROS, pressione em habilitar nos dois casos. Após isso, pode utilizar sem problemas a planilha.
